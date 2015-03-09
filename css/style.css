@@ -197,10 +197,10 @@ div {
 }
 
 
-.cases .ul .img {
+.cases .content .img {
     top: 1em;
     bottom: 1em;
-    width: 250px;
+    width: 50%;
     height: auto;
     margin: 0 auto;
     text-align: center;

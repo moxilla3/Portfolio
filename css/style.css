@@ -196,6 +196,17 @@ div {
 
 }
 
+
+.cases .ul .img {
+    top: 1em;
+    bottom: 1em;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    display: ;
+}
+
 /** aboutme section*/
 .about {
     background-color: #fff;
@@ -387,4 +398,14 @@ button:hover {
     }
     .footer {
         padding: 1.25em 0;
+    }
+
+    .cases .img {
+
+    top: 1em;
+    bottom: 1em;
+    display: inherit;
+    width: 22%;
+    margin: 0 auto;
+    text-align: center;
     }

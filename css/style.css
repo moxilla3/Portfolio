@@ -123,7 +123,6 @@ div {
 .introduction h1,
 .introduction h3 {
     font-family: 'Quicksand', sans-serif;    
-
     text-align: center;
     font-weight: 300;
 }
@@ -328,24 +327,10 @@ div {
 
 
 
-/**
- * Responsive Design
- */
-@media (min-width: 48rem) {
-    .content {
-        width: 46rem;
-    }
-}
-@media (min-width: 62rem) {
-    .content {
-        width: 60rem;
-    }
-}
-@media (min-width: 75rem) {
-    .content {
-        width: 60%;
-    }
-}
+
+
+
+
 
 /* Chrome, Safari, Opera */ 
 @-webkit-keyframes bounce {
@@ -379,3 +364,27 @@ button:hover {
     cursor: pointer;
 }
 
+
+/**responsive start */
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .introduction {
+        padding: 1.5em 0;
+    }
+    .introduction h1{
+        font-size: 2em;
+        }
+    .introduction h3{
+        font-size: 1em;
+        }
+    .footer {
+        font-size: .5em;
+    }
+    .footer {
+        padding: 1.25em 0;
+    }
